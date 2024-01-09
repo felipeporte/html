@@ -29,7 +29,7 @@
          src="{$shop.logo}"
          {if isset($iqitTheme.rm_logo) && $iqitTheme.rm_logo != ''} srcset="{$iqitTheme.rm_logo} 2x"{/if}
          alt="{$shop.name}"
-         width="{$shop.logo_details.width}"
+         width="180px"
          height="{$shop.logo_details.height}"
     >
   </a>
