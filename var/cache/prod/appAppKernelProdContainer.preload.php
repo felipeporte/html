@@ -10,7 +10,7 @@ if (in_array(PHP_SAPI, ['cli', 'phpdbg'], true)) {
 }
 
 require dirname(__DIR__, 3).'/vendor/autoload.php';
-require __DIR__.'/ContainerETYVNRl/appAppKernelProdContainer.php';
+require __DIR__.'/ContainerMiMs5Ie/appAppKernelProdContainer.php';
 
 $classes = [];
 $classes[] = 'Symfony\Bundle\FrameworkBundle\FrameworkBundle';
@@ -183,8 +183,6 @@ $classes[] = 'PrestaShopBundle\Form\Extension\IntegerTypeExtension';
 $classes[] = 'PrestaShopBundle\Form\Extension\NumberTypeExtension';
 $classes[] = 'PrestaShopBundle\Security\Admin\SessionRenewer';
 $classes[] = 'PrestaShopBundle\Utils\FloatParser';
-$classes[] = 'PrestaShop\Module\BlockWishList\Controller\WishlistConfigurationAdminController';
-$classes[] = 'PrestaShop\Module\LinkList\Form\Type\TranslateCustomUrlType';
 $classes[] = 'PrestaShop\PrestaShop\Adapter\Attachment\AttachmentRepository';
 $classes[] = 'PrestaShop\PrestaShop\Adapter\AttributeGroup\AttributeGroupViewDataProvider';
 $classes[] = 'PrestaShop\PrestaShop\Adapter\AttributeGroup\CommandHandler\BulkDeleteAttributeGroupHandler';
@@ -2090,29 +2088,6 @@ $classes[] = 'PrestaShopBundle\Service\Hook\HookFinder';
 $classes[] = 'PrestaShopBundle\DataCollector\HookRegistry';
 $classes[] = 'PrestaShopBundle\EventListener\LegacyParametersListener';
 $classes[] = 'PrestaShopBundle\EventListener\LegacyUrlListener';
-$classes[] = 'PrestaShop\Module\BlockWishList\Calculator\StatisticsCalculator';
-$classes[] = 'PrestaShop\Module\BlockWishList\Grid\Data\AllTimeStatisticsGridDataFactory';
-$classes[] = 'PrestaShop\Module\BlockWishList\Grid\Definition\AllTimeStatisticsGridDefinitionFactory';
-$classes[] = 'PrestaShop\Module\BlockWishList\Grid\Data\CurrentDayStatisticsGridDataFactory';
-$classes[] = 'PrestaShop\Module\BlockWishList\Grid\Definition\CurrentDayStatisticsGridDefinitionFactory';
-$classes[] = 'PrestaShop\Module\BlockWishList\Grid\Data\CurrentMonthStatisticsGridDataFactory';
-$classes[] = 'PrestaShop\Module\BlockWishList\Grid\Definition\CurrentMonthStatisticsGridDefinitionFactory';
-$classes[] = 'PrestaShop\Module\BlockWishList\Grid\Data\CurrentYearStatisticsGridDataFactory';
-$classes[] = 'PrestaShop\Module\BlockWishList\Grid\Definition\CurrentYearStatisticsGridDefinitionFactory';
-$classes[] = 'PrestaShop\Module\LinkList\Adapter\ObjectModelHandler';
-$classes[] = 'PrestaShop\Module\LinkList\Cache\LegacyLinkBlockCache';
-$classes[] = 'PrestaShop\Module\LinkList\Form\ChoiceProvider\CategoryChoiceProvider';
-$classes[] = 'PrestaShop\Module\LinkList\Form\ChoiceProvider\CMSCategoryChoiceProvider';
-$classes[] = 'PrestaShop\Module\LinkList\Form\ChoiceProvider\CMSPageChoiceProvider';
-$classes[] = 'PrestaShop\Module\LinkList\Form\ChoiceProvider\HookChoiceProvider';
-$classes[] = 'PrestaShop\Module\LinkList\Form\ChoiceProvider\PageChoiceProvider';
-$classes[] = 'PrestaShop\Module\LinkList\Form\Type\CustomUrlType';
-$classes[] = 'PrestaShop\PrestaShop\Core\Form\FormHandler';
-$classes[] = 'PrestaShop\Module\LinkList\Form\LinkBlockFormDataProvider';
-$classes[] = 'PrestaShop\Module\LinkList\Form\Type\LinkBlockType';
-$classes[] = 'PrestaShop\Module\LinkList\Core\Grid\LinkBlockGridFactory';
-$classes[] = 'PrestaShop\Module\LinkList\Core\Grid\Query\LinkBlockQueryBuilder';
-$classes[] = 'PrestaShop\Module\LinkList\Repository\LinkBlockRepository';
 $classes[] = 'PrestaShop\PrestaShop\Core\Module\ModuleManager';
 $classes[] = 'PrestaShop\Module\FacetedSearch\Constraint\UrlSegmentValidator';
 $classes[] = 'PrestaShop\PrestaShop\Core\Module\SourceHandler\ZipSourceHandler';

@@ -37,7 +37,7 @@ class __TwigTemplate_00e78cb78795c9f151dd5aeb7404236a extends Template
         echo "
 ";
         // line 26
-        $this->loadTemplate("@PrestaShop/Admin/Improve/Design/Theme/Blocks/delete_theme_modal.html.twig", "@PrestaShop/Admin/Improve/Design/Theme/Blocks/delete_theme_modal.html.twig", 26, "1283034535")->display(twig_array_merge($context, ["id" => "delete_theme_modal"]));
+        $this->loadTemplate("@PrestaShop/Admin/Improve/Design/Theme/Blocks/delete_theme_modal.html.twig", "@PrestaShop/Admin/Improve/Design/Theme/Blocks/delete_theme_modal.html.twig", 26, "908977591")->display(twig_array_merge($context, ["id" => "delete_theme_modal"]));
     }
 
     public function getTemplateName()
@@ -63,7 +63,7 @@ class __TwigTemplate_00e78cb78795c9f151dd5aeb7404236a extends Template
 
 
 /* @PrestaShop/Admin/Improve/Design/Theme/Blocks/delete_theme_modal.html.twig */
-class __TwigTemplate_00e78cb78795c9f151dd5aeb7404236a___1283034535 extends Template
+class __TwigTemplate_00e78cb78795c9f151dd5aeb7404236a___908977591 extends Template
 {
     private $source;
     private $macros = [];
