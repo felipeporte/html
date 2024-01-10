@@ -156,6 +156,7 @@ modules/ps_*
 themes/classic
 !themes/_core
 !themes/_libraries
+bo/
 
 # Vendors and dependencies
 
