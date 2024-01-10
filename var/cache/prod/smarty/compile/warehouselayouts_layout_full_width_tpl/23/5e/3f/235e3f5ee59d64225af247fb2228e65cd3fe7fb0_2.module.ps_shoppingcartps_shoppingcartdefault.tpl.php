@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-01-09 15:13:07
+/* Smarty version 4.3.4, created on 2024-01-10 14:00:07
   from 'module:ps_shoppingcartps_shoppingcartdefault.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_659d8cb3b6e218_83170185',
+  'unifunc' => 'content_659ecd17bed912_64783190',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:ps_shoppingcart/ps_shoppingcart.tpl' => 1,
   ),
 ),false)) {
-function content_659d8cb3b6e218_83170185 (Smarty_Internal_Template $_smarty_tpl) {
+function content_659ecd17bed912_64783190 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div id="ps-shoppingcart-wrapper">
     <div id="ps-shoppingcart"
          class="header-cart-default ps-shoppingcart <?php if ((isset($_smarty_tpl->tpl_vars['iqitTheme']->value['cart_style'])) && $_smarty_tpl->tpl_vars['iqitTheme']->value['cart_style'] == "floating") {?>dropdown<?php } else { ?>side-cart<?php }?>">

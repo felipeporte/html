@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-01-09 15:13:07
+/* Smarty version 4.3.4, created on 2024-01-09 18:33:17
   from '/var/www/html/themes/warehouse/templates/catalog/_partials/product-cover-thumbnails.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_659d8cb3e31207_54626094',
+  'unifunc' => 'content_659dbb9d3970f1_29020327',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/_product_partials/product-cover.tpl' => 2,
   ),
 ),false)) {
-function content_659d8cb3e31207_54626094 (Smarty_Internal_Template $_smarty_tpl) {
+function content_659dbb9d3970f1_29020327 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['iqitTheme']->value['pp_image_layout'] == 'column' && !(isset($_smarty_tpl->tpl_vars['is_quickview']->value))) {?>
     <div class="images-container js-images-container">
             <?php $_smarty_tpl->_subTemplateRender('file:catalog/_partials/_product_partials/product-cover-column.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);

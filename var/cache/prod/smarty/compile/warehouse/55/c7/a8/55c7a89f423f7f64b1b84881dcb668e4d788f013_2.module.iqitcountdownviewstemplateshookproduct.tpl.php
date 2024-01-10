@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-01-09 15:13:08
+/* Smarty version 4.3.4, created on 2024-01-10 14:00:07
   from 'module:iqitcountdownviewstemplateshookproduct.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_659d8cb40946f5_22212237',
+  'unifunc' => 'content_659ecd171a12e4_23428022',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_659d8cb40946f5_22212237 (Smarty_Internal_Template $_smarty_tpl) {
+function content_659ecd171a12e4_23428022 (Smarty_Internal_Template $_smarty_tpl) {
 if ((isset($_smarty_tpl->tpl_vars['to']->value)) && $_smarty_tpl->tpl_vars['to']->value != '0000-00-00 00:00:00') {?>
     <div class="price-countdown-wrapper">
         <div class="price-countdown badge-discount discount">

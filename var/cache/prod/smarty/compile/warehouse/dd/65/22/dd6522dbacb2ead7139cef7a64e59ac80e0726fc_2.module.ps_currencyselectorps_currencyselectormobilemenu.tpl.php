@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-01-09 15:13:07
+/* Smarty version 4.3.4, created on 2024-01-10 14:00:07
   from 'module:ps_currencyselectorps_currencyselectormobilemenu.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_659d8cb3d4f916_42208285',
+  'unifunc' => 'content_659ecd17dc1529_39804770',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_659d8cb3d4f916_42208285 (Smarty_Internal_Template $_smarty_tpl) {
+function content_659ecd17dc1529_39804770 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 <div class="mobile-menu__currency-selector d-inline-block">

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-01-09 15:13:07
+/* Smarty version 4.3.4, created on 2024-01-09 18:33:17
   from 'module:iqitproductsnavviewstemplateshookiqitproductsnav.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_659d8cb3df1232_50891860',
+  'unifunc' => 'content_659dbb9d35ad75_53508593',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_659d8cb3df1232_50891860 (Smarty_Internal_Template $_smarty_tpl) {
+function content_659dbb9d35ad75_53508593 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div id="iqitproductsnav">
     <?php if ((isset($_smarty_tpl->tpl_vars['previous']->value))) {?>

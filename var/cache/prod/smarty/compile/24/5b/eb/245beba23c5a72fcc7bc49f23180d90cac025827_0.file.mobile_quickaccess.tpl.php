@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-01-09 15:07:33
+/* Smarty version 4.3.4, created on 2024-01-10 13:28:04
   from '/var/www/html/bo/themes/new-theme/template/components/layout/mobile_quickaccess.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_659d8b65e92312_37830533',
+  'unifunc' => 'content_659ec594e5f7a8_07943491',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_659d8b65e92312_37830533 (Smarty_Internal_Template $_smarty_tpl) {
+function content_659ec594e5f7a8_07943491 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="component-search-quickaccess d-none">
   <p class="component-search-title"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Quick Access','d'=>'Admin.Navigation.Header'),$_smarty_tpl ) );?>
 </p>
@@ -32,8 +32,8 @@ $_smarty_tpl->tpl_vars['quick']->do_else = false;
 ?>
     <a class="dropdown-item quick-row-link<?php ob_start();
 echo $_smarty_tpl->tpl_vars['quick']->value['link'];
-$_prefixVariable6 = ob_get_clean();
-if ($_smarty_tpl->tpl_vars['link']->value->matchQuickLink($_prefixVariable6)) {
+$_prefixVariable5 = ob_get_clean();
+if ($_smarty_tpl->tpl_vars['link']->value->matchQuickLink($_prefixVariable5)) {
 $_smarty_tpl->_assignInScope('matchQuickLink', $_smarty_tpl->tpl_vars['quick']->value['id_quick_access']);?> active<?php }?>"
        href="<?php echo call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['quick']->value['link'],'html','UTF-8' ));?>
 "

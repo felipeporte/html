@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-01-09 15:04:54
+/* Smarty version 4.3.4, created on 2024-01-10 14:00:07
   from '/var/www/html/themes/warehouse/templates/catalog/_partials/miniatures/_partials/product-miniature-btn.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_659d8ac66edb37_26029762',
+  'unifunc' => 'content_659ecd1712ce68_61473981',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_659d8ac66edb37_26029762 (Smarty_Internal_Template $_smarty_tpl) {
+function content_659ecd1712ce68_61473981 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="product-add-cart js-product-add-cart-<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['product']->value['id'], ENT_QUOTES, 'UTF-8');?>
 -<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['product']->value['id_product_attribute'], ENT_QUOTES, 'UTF-8');?>

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-01-09 15:13:08
+/* Smarty version 4.3.4, created on 2024-01-10 14:00:08
   from 'module:iqitsocialloginviewstemplateshookauthentication.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_659d8cb483a4d8_40210457',
+  'unifunc' => 'content_659ecd182b6319_35215210',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_659d8cb483a4d8_40210457 (Smarty_Internal_Template $_smarty_tpl) {
+function content_659ecd182b6319_35215210 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['facebook_status']->value || $_smarty_tpl->tpl_vars['google_status']->value || $_smarty_tpl->tpl_vars['instagram_status']->value) {?>
     <div class="iqitsociallogin iqitsociallogin-authentication iqitsociallogin-colors-<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['btn_colors']->value, ENT_QUOTES, 'UTF-8');?>
  text-center">

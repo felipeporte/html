@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-01-09 15:13:08
+/* Smarty version 4.3.4, created on 2024-01-09 18:33:17
   from 'module:iqithtmlandbannersviewstemplateshook_partialshtml.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_659d8cb420dd94_39639004',
+  'unifunc' => 'content_659dbb9d6863a2_22924710',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_659d8cb420dd94_39639004 (Smarty_Internal_Template $_smarty_tpl) {
+function content_659dbb9d6863a2_22924710 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['block']->value['content']) {
 if ($_smarty_tpl->tpl_vars['block']->value['hook'] == 'displayNav1' || $_smarty_tpl->tpl_vars['block']->value['hook'] == 'displayNav2' || $_smarty_tpl->tpl_vars['block']->value['hook'] == 'displayNavCenter') {?>
     <div id="iqithtmlandbanners-block-<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['block']->value['id'], ENT_QUOTES, 'UTF-8');?>

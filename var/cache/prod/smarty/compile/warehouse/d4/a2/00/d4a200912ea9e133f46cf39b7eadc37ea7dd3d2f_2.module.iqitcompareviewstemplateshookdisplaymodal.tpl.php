@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-01-09 15:13:08
+/* Smarty version 4.3.4, created on 2024-01-10 14:00:08
   from 'module:iqitcompareviewstemplateshookdisplaymodal.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_659d8cb4851837_89230693',
+  'unifunc' => 'content_659ecd182cdbc6_75075190',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_659d8cb4851837_89230693 (Smarty_Internal_Template $_smarty_tpl) {
+function content_659ecd182cdbc6_75075190 (Smarty_Internal_Template $_smarty_tpl) {
 if (!$_smarty_tpl->tpl_vars['update']->value) {?>
 <div id="iqitcompare-notification" class="ns-box ns-effect-thumbslider ns-text-only">
     <div class="ns-box-inner">

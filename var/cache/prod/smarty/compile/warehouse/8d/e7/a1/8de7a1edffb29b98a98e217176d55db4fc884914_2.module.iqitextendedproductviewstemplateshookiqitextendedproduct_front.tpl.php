@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-01-09 15:13:07
+/* Smarty version 4.3.4, created on 2024-01-09 18:33:17
   from 'module:iqitextendedproductviewstemplateshookiqitextendedproduct_front.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_659d8cb3f14905_17091902',
+  'unifunc' => 'content_659dbb9d471bf4_15281905',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:iqitextendedproduct/views/templates/hook/_partials/below-thumbs.tpl' => 1,
   ),
 ),false)) {
-function content_659d8cb3f14905_17091902 (Smarty_Internal_Template $_smarty_tpl) {
+function content_659dbb9d471bf4_15281905 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['hookName']->value == 'displayAsFirstProductImage' || $_smarty_tpl->tpl_vars['hookName']->value == 'displayAsLastProductImage') {?>
     <?php if ($_smarty_tpl->tpl_vars['imageCarusel']->value == 'large') {?>
         <?php $_smarty_tpl->_subTemplateRender("module:iqitextendedproduct/views/templates/hook/_partials/as-image.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);

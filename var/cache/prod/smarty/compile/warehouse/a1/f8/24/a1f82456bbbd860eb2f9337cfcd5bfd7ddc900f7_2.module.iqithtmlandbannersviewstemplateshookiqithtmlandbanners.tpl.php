@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-01-09 15:13:08
+/* Smarty version 4.3.4, created on 2024-01-09 18:33:17
   from 'module:iqithtmlandbannersviewstemplateshookiqithtmlandbanners.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_659d8cb41e1524_59399098',
+  'unifunc' => 'content_659dbb9d659c12_98885356',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:iqithtmlandbanners/views/templates/hook/_partials/banner.tpl' => 1,
   ),
 ),false)) {
-function content_659d8cb41e1524_59399098 (Smarty_Internal_Template $_smarty_tpl) {
+function content_659dbb9d659c12_98885356 (Smarty_Internal_Template $_smarty_tpl) {
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['blocks']->value, 'block');
 $_smarty_tpl->tpl_vars['block']->do_else = true;
 if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['block']->value) {

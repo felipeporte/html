@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-01-09 15:13:08
+/* Smarty version 4.3.4, created on 2024-01-10 14:00:08
   from 'module:iqitwishlistviewstemplateshookdisplaymodal.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_659d8cb45fa8c3_62729492',
+  'unifunc' => 'content_659ecd1807c121_47581052',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_659d8cb45fa8c3_62729492 (Smarty_Internal_Template $_smarty_tpl) {
+function content_659ecd1807c121_47581052 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
@@ -45,7 +45,7 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
                 </section>
                 <hr/>
                 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1341318400659d8cb45f4b90_04784560', 'display_after_login_form');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_533355786659ecd180763a2_53661284', 'display_after_login_form');
 ?>
 
                 <div class="no-account">
@@ -70,12 +70,12 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1341318400659d8cb4
     </div>
 </div><?php }
 /* {block 'display_after_login_form'} */
-class Block_1341318400659d8cb45f4b90_04784560 extends Smarty_Internal_Block
+class Block_533355786659ecd180763a2_53661284 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'display_after_login_form' => 
   array (
-    0 => 'Block_1341318400659d8cb45f4b90_04784560',
+    0 => 'Block_533355786659ecd180763a2_53661284',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-01-09 15:13:08
+/* Smarty version 4.3.4, created on 2024-01-09 18:33:17
   from 'module:iqitcompareviewstemplateshookproductpage.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_659d8cb412f7e2_43560508',
+  'unifunc' => 'content_659dbb9d5d0342_56967284',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_659d8cb412f7e2_43560508 (Smarty_Internal_Template $_smarty_tpl) {
+function content_659dbb9d5d0342_56967284 (Smarty_Internal_Template $_smarty_tpl) {
 if ((isset($_smarty_tpl->tpl_vars['product']->value['id_product']))) {?>
     <div class="col col-sm-auto col-add-compare">
         <button type="button" data-toggle="tooltip" data-placement="top" title="<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Add to compare','mod'=>'iqitcompare'),$_smarty_tpl ) );?>

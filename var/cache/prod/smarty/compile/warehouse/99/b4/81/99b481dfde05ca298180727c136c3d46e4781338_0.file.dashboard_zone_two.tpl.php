@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-01-09 15:07:36
+/* Smarty version 4.3.4, created on 2024-01-10 12:41:20
   from '/var/www/html/modules/dashgoals/views/templates/hook/dashboard_zone_two.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_659d8b682c21b4_91630254',
+  'unifunc' => 'content_659ebaa0c7c9b3_64028959',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:./config.tpl' => 1,
   ),
 ),false)) {
-function content_659d8b682c21b4_91630254 (Smarty_Internal_Template $_smarty_tpl) {
+function content_659ebaa0c7c9b3_64028959 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="clearfix"></div>
 <?php echo '<script'; ?>
 >

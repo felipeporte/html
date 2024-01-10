@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-01-09 15:13:07
+/* Smarty version 4.3.4, created on 2024-01-10 14:00:07
   from '/var/www/html/themes/warehouse/templates/_partials/header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_659d8cb3aa7b15_23402458',
+  'unifunc' => 'content_659ecd17b18cd6_91894831',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -32,27 +32,27 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:_partials/_variants/mobile-header-3.tpl' => 1,
   ),
 ),false)) {
-function content_659d8cb3aa7b15_23402458 (Smarty_Internal_Template $_smarty_tpl) {
+function content_659ecd17b18cd6_91894831 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_313649563659d8cb3a7c819_73918536', 'header_banner');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1029482053659ecd17ae6599_12014914', 'header_banner');
 ?>
 
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1427953869659d8cb3a7ed32_77628779', 'header_nav');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_49412875659ecd17ae9022_84746531', 'header_nav');
 ?>
 
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1358943673659d8cb3a894b9_55958632', 'header_desktop');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1014755058659ecd17af4853_82576438', 'header_desktop');
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_407084574659d8cb3a9e060_26525430', 'header_mobile');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_827054421659ecd17b0deb0_82088229', 'header_mobile');
 ?>
 
 
@@ -60,12 +60,12 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_407084574659d8cb3a
 
 <?php }
 /* {block 'header_banner'} */
-class Block_313649563659d8cb3a7c819_73918536 extends Smarty_Internal_Block
+class Block_1029482053659ecd17ae6599_12014914 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'header_banner' => 
   array (
-    0 => 'Block_313649563659d8cb3a7c819_73918536',
+    0 => 'Block_1029482053659ecd17ae6599_12014914',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -80,12 +80,12 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'header_banner'} */
 /* {block 'header_nav'} */
-class Block_1427953869659d8cb3a7ed32_77628779 extends Smarty_Internal_Block
+class Block_49412875659ecd17ae9022_84746531 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'header_nav' => 
   array (
-    0 => 'Block_1427953869659d8cb3a7ed32_77628779',
+    0 => 'Block_49412875659ecd17ae9022_84746531',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -127,12 +127,12 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'header_nav'} */
 /* {block 'header_desktop'} */
-class Block_1358943673659d8cb3a894b9_55958632 extends Smarty_Internal_Block
+class Block_1014755058659ecd17af4853_82576438 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'header_desktop' => 
   array (
-    0 => 'Block_1358943673659d8cb3a894b9_55958632',
+    0 => 'Block_1014755058659ecd17af4853_82576438',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -173,12 +173,12 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'header_desktop'} */
 /* {block 'header_mobile'} */
-class Block_407084574659d8cb3a9e060_26525430 extends Smarty_Internal_Block
+class Block_827054421659ecd17b0deb0_82088229 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'header_mobile' => 
   array (
-    0 => 'Block_407084574659d8cb3a9e060_26525430',
+    0 => 'Block_827054421659ecd17b0deb0_82088229',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

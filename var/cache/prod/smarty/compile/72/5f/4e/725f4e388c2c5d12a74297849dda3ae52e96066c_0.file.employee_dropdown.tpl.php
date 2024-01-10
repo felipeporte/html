@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-01-09 15:07:33
+/* Smarty version 4.3.4, created on 2024-01-10 13:28:04
   from '/var/www/html/bo/themes/new-theme/template/components/layout/employee_dropdown.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_659d8b65ef0217_54358775',
+  'unifunc' => 'content_659ec594ef1e88_71910656',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_659d8b65ef0217_54358775 (Smarty_Internal_Template $_smarty_tpl) {
+function content_659ec594ef1e88_71910656 (Smarty_Internal_Template $_smarty_tpl) {
 if ((isset($_smarty_tpl->tpl_vars['employee']->value))) {?>
 <div class="dropdown employee-dropdown">
   <div class="rounded-circle person" data-toggle="dropdown">
@@ -54,7 +54,7 @@ if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['menuItem']->valu
 $_smarty_tpl->tpl_vars['menuItem']->do_else = false;
 $_smarty_tpl->tpl_vars['menuItem']->iteration++;
 $_smarty_tpl->tpl_vars['menuItem']->last = $_smarty_tpl->tpl_vars['menuItem']->iteration === $_smarty_tpl->tpl_vars['menuItem']->total;
-$__foreach_menuItem_29_saved = $_smarty_tpl->tpl_vars['menuItem'];
+$__foreach_menuItem_14_saved = $_smarty_tpl->tpl_vars['menuItem'];
 ?>
       <?php $_smarty_tpl->_assignInScope('menuItemProperties', $_smarty_tpl->tpl_vars['menuItem']->value->getProperties());?>
         <a class="dropdown-item <?php echo $_smarty_tpl->tpl_vars['menuItem']->value->getClass();?>
@@ -69,7 +69,7 @@ echo $_smarty_tpl->tpl_vars['menuItem']->value->getContent();?>
           <p class="divider"></p>
         <?php }?>
     <?php
-$_smarty_tpl->tpl_vars['menuItem'] = $__foreach_menuItem_29_saved;
+$_smarty_tpl->tpl_vars['menuItem'] = $__foreach_menuItem_14_saved;
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 

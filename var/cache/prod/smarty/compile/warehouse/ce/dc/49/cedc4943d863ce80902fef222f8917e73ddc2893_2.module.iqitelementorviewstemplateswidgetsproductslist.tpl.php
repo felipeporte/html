@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-01-09 15:04:54
+/* Smarty version 4.3.4, created on 2024-01-10 14:00:06
   from 'module:iqitelementorviewstemplateswidgetsproductslist.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_659d8ac6341714_14149918',
+  'unifunc' => 'content_659ecd16d68351_14799861',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/miniatures/product-list.tpl' => 1,
   ),
 ),false)) {
-function content_659d8ac6341714_14149918 (Smarty_Internal_Template $_smarty_tpl) {
+function content_659ecd16d68351_14799861 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="elementor-products">
 

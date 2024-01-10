@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-01-09 15:13:08
+/* Smarty version 4.3.4, created on 2024-01-09 18:33:17
   from 'module:iqitsizechartsviewstemplateshookiqitsizecharts.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_659d8cb40c2b94_55417728',
+  'unifunc' => 'content_659dbb9d564649_44716844',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_659d8cb40c2b94_55417728 (Smarty_Internal_Template $_smarty_tpl) {
+function content_659dbb9d564649_44716844 (Smarty_Internal_Template $_smarty_tpl) {
 if ((isset($_smarty_tpl->tpl_vars['charts']->value)) && $_smarty_tpl->tpl_vars['charts']->value) {?>
 
     <button class="btn btn-secondary mt-3" data-button-action="open-iqitsizecharts" type="button" data-toggle="modal" data-target="#iqitsizecharts-modal">

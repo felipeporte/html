@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-01-09 15:13:08
+/* Smarty version 4.3.4, created on 2024-01-10 14:00:08
   from '/var/www/html/themes/warehouse/templates/_partials/_variants/footer-copyrights-1.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_659d8cb45daba1_99292138',
+  'unifunc' => 'content_659ecd18059d81_61141354',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,25 +20,25 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_659d8cb45daba1_99292138 (Smarty_Internal_Template $_smarty_tpl) {
+function content_659ecd18059d81_61141354 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
 
 <?php if ($_smarty_tpl->tpl_vars['iqitTheme']->value['fc_status']) {?>
     <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_232320928659d8cb45c9536_99218216', 'footer_copyrights');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_196784709659ecd18048947_07460900', 'footer_copyrights');
 ?>
 
 <?php }
 }
 /* {block 'footer_copyrights'} */
-class Block_232320928659d8cb45c9536_99218216 extends Smarty_Internal_Block
+class Block_196784709659ecd18048947_07460900 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'footer_copyrights' => 
   array (
-    0 => 'Block_232320928659d8cb45c9536_99218216',
+    0 => 'Block_196784709659ecd18048947_07460900',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

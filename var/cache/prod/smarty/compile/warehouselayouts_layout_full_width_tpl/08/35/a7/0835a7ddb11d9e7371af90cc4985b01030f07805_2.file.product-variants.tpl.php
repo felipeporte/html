@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-01-09 15:13:08
+/* Smarty version 4.3.4, created on 2024-01-09 18:33:17
   from '/var/www/html/themes/warehouse/templates/catalog/_partials/product-variants.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_659d8cb40f7df5_59135402',
+  'unifunc' => 'content_659dbb9d599ea7_21797790',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_659d8cb40f7df5_59135402 (Smarty_Internal_Template $_smarty_tpl) {
+function content_659dbb9d599ea7_21797790 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="product-variants js-product-variants">
 
     <?php
